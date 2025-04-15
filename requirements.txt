@@ -1,0 +1,5 @@
+streamlit
+matplotlib
+seaborn
+pandas
+implicit  # Add this if you are using ALS from the 'implicit' library
