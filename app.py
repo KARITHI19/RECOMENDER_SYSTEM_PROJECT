@@ -12,7 +12,7 @@ st.title("Product Recommendation System")
 # Plot rating distribution
 st.subheader("Distribution of Ratings")
 plt.figure(figsize=(8, 5))
-sns.countplot(x='Score', data=reviews2)
+sns.countplot(x='Score', data=reviews)
 plt.xlabel("Rating (Score)")
 plt.ylabel("Count of Reviews")
 plt.title("Distribution of Ratings in Amazon Fine Foods Reviews")
