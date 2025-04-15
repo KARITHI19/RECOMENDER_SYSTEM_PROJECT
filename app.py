@@ -10,13 +10,13 @@ import pandas as pd
 st.title("Product Recommendation System")
 
 # Plot rating distribution
-st.subheader("Distribution of Ratings")
-plt.figure(figsize=(8, 5))
-sns.countplot(x='Score', data=reviews)
-plt.xlabel("Rating (Score)")
-plt.ylabel("Count of Reviews")
-plt.title("Distribution of Ratings in Amazon Fine Foods Reviews")
-st.pyplot(plt)
+#st.subheader("Distribution of Ratings")
+#plt.figure(figsize=(8, 5))
+#sns.countplot(x='Score', data=reviews)
+#plt.xlabel("Rating (Score)")
+#plt.ylabel("Count of Reviews")
+#plt.title("Distribution of Ratings in Amazon Fine Foods Reviews")
+#st.pyplot(plt)
 
 # Input: Choose a user ID
 user_id = st.number_input('Choose a User ID', min_value=1, max_value=len(train_sparse)-1, value=15)
